@@ -13,7 +13,7 @@ set(src
   chunkio.c
   )
 
-set(libs cio-crc32)
+set(libs cio-crc32 fts)
 
 if(${CMAKE_SYSTEM_NAME} MATCHES "Windows")
   set(src
